@@ -1,6 +1,6 @@
 {
   "name": "npm-circdep-test-package-b",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
   "description": "Testing NPM Circular Dependency",
@@ -11,6 +11,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "npm-circdep-test-package-a": "0.1.0"
+    "npm-circdep-test-package-a": "0.2.1"
   }
 }
