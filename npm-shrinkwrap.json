@@ -3,40 +3,12 @@
   "version": "0.1.2",
   "dependencies": {
     "npm-circdep-test-package-a": {
-      "version": "0.2.2",
-      "from": "npm-circdep-test-package-a@>=0.2.0 <0.3.0",
-      "dependencies": {
-        "npm-circdep-test-package-b": {
-          "version": "0.2.1",
-          "from": "npm-circdep-test-package-b@0.2.1",
-          "resolved": "https://registry.npmjs.org/npm-circdep-test-package-b/-/npm-circdep-test-package-b-0.2.1.tgz",
-          "dependencies": {
-            "npm-circdep-test-package-a": {
-              "version": "0.1.0",
-              "from": "npm-circdep-test-package-a@0.1.0",
-              "resolved": "https://registry.npmjs.org/npm-circdep-test-package-a/-/npm-circdep-test-package-a-0.1.0.tgz"
-            }
-          }
-        }
-      }
+      "version": "0.2.3",
+      "from": "npm-circdep-test-package-a@latest"
     },
     "npm-circdep-test-package-b": {
-      "version": "0.2.2",
-      "from": "npm-circdep-test-package-b@>=0.2.0 <0.3.0",
-      "dependencies": {
-        "npm-circdep-test-package-a": {
-          "version": "0.2.1",
-          "from": "npm-circdep-test-package-a@0.2.1",
-          "resolved": "https://registry.npmjs.org/npm-circdep-test-package-a/-/npm-circdep-test-package-a-0.2.1.tgz",
-          "dependencies": {
-            "npm-circdep-test-package-b": {
-              "version": "0.1.0",
-              "from": "npm-circdep-test-package-b@0.1.0",
-              "resolved": "https://registry.npmjs.org/npm-circdep-test-package-b/-/npm-circdep-test-package-b-0.1.0.tgz"
-            }
-          }
-        }
-      }
+      "version": "0.2.3",
+      "from": "npm-circdep-test-package-b@latest"
     }
   }
 }

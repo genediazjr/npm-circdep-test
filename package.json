@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "npm-circdep-test-package-a": "0.2.x",
-    "npm-circdep-test-package-b": "0.2.x"
+    "npm-circdep-test-package-a": "latest",
+    "npm-circdep-test-package-b": "latest"
   }
 }
