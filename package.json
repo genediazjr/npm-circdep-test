@@ -1,6 +1,6 @@
 {
   "name": "npm-circdep-test",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
   "description": "Testing NPM Circular Dependency",
